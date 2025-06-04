@@ -21,5 +21,7 @@ for person in people:
 print('-' * 60)
 
 for first_name, last_name, product in people:  # if there is more than one variable in a for loop, each element is unpacked
+    # first_name, last_name, product = people[0]
+    # ...
     print(first_name, last_name)
 print('-' * 60)

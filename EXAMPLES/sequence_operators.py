@@ -16,3 +16,18 @@ list_a = [1, 2, 3]
 list_b = [4, 5, 6]
 list_c = list_a + list_b
 print(f"{list_c = }")
+
+print('-' * 60)
+print(f"{[False] * 10 = }")
+
+nums = [800, 80, 1000, 32, -3, 8, 18, 255, 400, 5, 5000]
+
+total = sum(nums)
+print(f"{total = }")
+
+print(f"{nums = }")
+rev_nums = reversed(nums)
+print(f"{rev_nums = }")
+for num in rev_nums:
+    print(num, end=",")
+print()

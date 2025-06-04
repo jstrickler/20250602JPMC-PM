@@ -1,3 +1,6 @@
+fruits = list()  # empty list
+colors = []   # empty list
+
 cities = ['Portland', 'Pittsburgh', 'Peoria']
 print(f"cities: {cities}\n")
 
@@ -11,6 +14,7 @@ print(f"cities: {cities}\n")
 
 more_cities = ["Detroit", "Des Moines"]
 cities.extend(more_cities)
+# cities.append(more_cities) adds more_cities as a list, not individual objects
 print(f"cities: {cities}\n")
 
 # LIST.append(obj) LIST.insert(idx, obj) LIST.extend(iterable)
