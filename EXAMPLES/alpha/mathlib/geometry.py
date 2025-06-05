@@ -40,7 +40,10 @@ def square_area(side):
     """
     return side ** 2
 
+print("My name is", __name__)
+
 if __name__ == "__main__":
+    print("I AM A SCRIPT!!!")
     area1 = square_area(15)
     print(f"area1: {area1}")
     

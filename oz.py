@@ -1,0 +1,3 @@
+import wombat
+
+wombat.doit()

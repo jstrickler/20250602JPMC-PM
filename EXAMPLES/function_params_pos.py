@@ -1,5 +1,5 @@
 def double(n):  # one required parameter
-    return n ** 2
+    return n * 2
 
 d = double(5)
 print(f"{d = }")

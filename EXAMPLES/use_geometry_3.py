@@ -1,4 +1,4 @@
-from geometry import circle_area, rectangle_area, square_area
+from alpha.mathlib.geometry import circle_area, rectangle_area, square_area
 
 circle = circle_area(8)
 print(f"{circle = }")
